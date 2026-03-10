@@ -6,7 +6,7 @@ class Game:
     def __init__(self):
         print('Setup start')
         pygame.init()
-        self.window = pygame.display.set_mode(size=(600, 480))
+        self.window = pygame.display.set_mode(size=(576, 324))
 
         print('Setup end')
     def Run(self):
@@ -17,9 +17,9 @@ class Game:
             pass
 
             #check for all events
-            for event in pygame.event.get():
-                if event==pygame.QUIT:
-                    print('Quiting...')
-                    pygame.quit()
-                    quit()
+            #for event in pygame.event.get():
+               # if event==pygame.QUIT:
+                #    print('Quiting...')
+                 #   pygame.quit()
+                  #  quit()
 
